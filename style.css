@@ -1,0 +1,410 @@
+.logo img {
+	width: 50px;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.header-center {
+	font-size: 18px;
+	padding-left: 90px;
+}
+.slider {
+	background: url(https://i.ibb.co/fQFh6fT/mbr-10.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	padding: 200px;
+}
+.gmail1 {
+    padding: 14px 18px;
+	padding: 14px 18px;
+    margin-right: 190px;
+    border: 1px solid green;
+    width: 280px;
+    margin: auto;
+}
+.gmail1:focus{
+	box-shadow: 1px 2px 20px 5px #6279dfb8;
+	border: none;
+	outline: none;
+}
+.button1 {
+	display: inline-block;
+    font-size: 25px;
+    background: #5ba533;
+    color: white;
+    font-weight: 500;
+    border: 1ox solid transparent;
+    border: none;
+    padding: 8px 37px;
+    position: relative;
+    right: -20px;
+    top: 4px;
+	transition: .5s;
+}
+.button1:hover{
+	background-color: white;
+	color: #6278df;
+	box-shadow: 1px 2px 20px 5px #6279dfb8;
+}
+.slider-content p {
+	font-size: 25px;
+	font-weight: 500;
+}
+.slider-content h1 {
+	font-size: 50px;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+
+/* Number Section */
+
+.number-content {
+	text-align: center;
+}
+.number-content h2 {
+	font-size: 45px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+.number-content p {
+	color: #767676;
+	font-size: 20px;
+}
+/* Health-Section */
+.health-section{
+	background-color: #f7f9ff;
+}
+
+.health-tex {
+	padding-top: 140px;
+}
+
+
+.health-tex h3 {
+	font-size: 40px;
+	font-weight: 600;
+}
+.health-tex p {
+	font-size: 22px;
+	font-weight: 300;
+}
+
+/* About -Section */
+.about-tex h1 {
+	font-size: 3rem;
+}
+.about-tex p {
+	font-size: 27px;
+	color: #767676;
+}
+.sanjid-vi {
+	height: 250px;
+}
+.sanjid-vi img {
+	height: 250px;
+}
+
+.sanjid-vi h5 {
+	font-size: 25px;
+	font-weight: 500;
+	padding: 10px;
+}
+.sanjid-vi p {
+	color: #767676;
+	font-size: 17px;
+	padding: 10px;
+}
+
+/* application */
+
+.application-logo{
+	cursor: pointer;
+	
+	position: relative;
+}
+.application-logo::after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #4f5aa369;
+	transition: .5s;
+	opacity: 0;
+	visibility: hidden;
+}
+.application-logo:hover::after{
+	opacity: 1;
+	visibility: visible;
+
+
+}
+
+/* Pricing Section */
+
+.Pricing {
+	background-color: #f7f9ff;
+}
+
+.Starter {
+    background: rgb(255, 255, 255);
+    padding: 15px 25px;
+    box-shadow: 1px 4px 9px 2px #f3eded;
+    border-radius: 5px;
+}
+.pricing-tex h1 {
+    font-size: 4rem;
+    padding: 20px 0;
+}
+.pricing-tex p {
+    font-size: 25px;
+    font-weight: 500;
+}
+.Starter h3 {
+    font-size: 3rem;
+    padding: 10px 0;
+	padding-left: 10px;
+}
+.Starter p {
+    font-size: 20px;
+    color: rgb(118, 118, 118);
+    padding-left: 20px;
+}
+.Starter ul{
+	list-style: none;
+	padding: 0;
+}
+.Starter ul li {
+    font-size: 20px;
+    margin: 20px 0;
+}
+.Starter ul li span {
+    color: #6278df;
+    font-size: 30px;
+    margin-left: 20px;
+    width: 40px;
+    font-weight: 900;
+    display: inline-block;
+}
+.starter1 {
+    text-align: center;
+}
+.Starter a {
+	display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 2px 5px -2px black;
+    padding: 11px 50px;
+    transition: .5s;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+.Starter:hover a{
+	background-color: #6278df;
+	color: white;
+}
+.Starter a:hover{
+	background-color: black;
+	color: white;
+}
+
+
+/* Feedback -Section */
+
+
+.feedback-tex h1 {
+	font-size: 3rem;
+	font-weight: 500;
+	padding-bottom: 110px;
+}
+.feedback-tex p {
+	font-size: 25px;
+	color: #767676;
+	font-weight: 400;
+	width: 828px;
+	margin: auto;
+	line-height: 2.5rem;
+}
+.feedback-tex{
+	position: relative;
+}
+
+.feedback-tex::before {
+	content: "\f10d";
+	position: absolute;
+	top: 120px;
+	left: 525px;
+	font-family: "FontAwesome";
+	font-weight: 900;
+	font-size: 110px;
+	color: #ccc;
+}
+.feedback-logo img {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+.logo-feed h4 {
+	font-size: 25px;
+	font-weight: 500;
+}
+.logo-feed {
+	position: relative;
+	top: -55px;
+	left: 106px;
+}
+.logo-feed span {
+	font-size: 17px;
+	position: relative;
+	left: -16px;
+	top: -5px;
+}
+.history {
+	background-color: #f7f9ff;
+	margin-bottom: 30px;
+	padding-bottom: 70px;
+}
+.history-tex {
+	padding: 40px 25px;
+}
+.history h2 {
+	font-size: 44px;
+	font-weight: 500;
+}
+.history1 img {
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	transform: translate(22px ,59px);
+	margin-bottom: 20px;
+}
+.history-tex h4 {
+	padding-top: 70px;
+	font-size: 25px;
+}
+.history-tex p {
+	color: #767676;
+	margin-top: 20px;
+	font-weight: 500;
+	font-size: 20px;
+}
+.es1 {
+	font-size: 20px;
+	transition: .5s;
+}
+.es1:hover {
+	color: white;
+	background: black;
+}
+
+
+.contact-tex p {
+	color: #767676;
+	font-size: 23px;
+	margin-top: 20px;
+	font-weight: 300;
+}
+.contact-tex h1{
+	font-size: 45px;
+}
+.contact-form {
+	width: 710px;
+	margin: auto;
+	padding: 20px 40px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.form-button{
+	background-color: #6278df;
+	color: white;
+}
+
+.form-button {
+	font-size: 25px;
+	padding: 10px 30px;
+	transition: .5s;
+	border: 1px solid transparent;
+}
+.form-button:hover {
+	background: white;
+	color: #6278df;
+	border: 1px solid #6278df;
+	box-shadow: 1px 1px 9px 2px #6278df;
+}
+
+.sh-1:focus{
+	box-shadow: 1px 1px 9px 2px #6278df;
+
+}
+.footer-bottom {
+	width: 710px;
+	margin: auto;
+}
+	
+.footer-bottom p {
+	font-size: 23px;
+	color: #767676;
+	margin-top: 50px;
+}
+.footer-bottom h1 {
+	font-size: 48px;
+	padding-bottom: 20px;
+}
+.end-btn {
+	display: inline-block;
+	font-size: 33px;
+	border: 1px solid #5ba533;
+	color: #5ba533;
+	margin-bottom: 40px;
+	margin-right: 15px;
+	transition: .5s;
+	border-radius: 10px;
+}
+.end-btn:hover{
+	background-color: #5ba533;
+	color: #fff;
+
+}
+
+.end1-btn{
+	display: inline-block;
+	font-size: 33px;
+	background-color: #5ba533;
+	color: #5ba533;
+	margin-bottom: 40px;
+	margin-left: 15px;
+	transition: .5s;
+	color: white;
+	border-radius: 10px;
+}
+.end1-btn:hover{
+	background-color: black;
+	color: #fff;
+}
+/* footer-section */
+.footer-section span{
+	color:#f7f9f8 ;
+	transition: .5s;
+}
+
+.footer-section span:hover{
+
+	color: black;
+	
+}
+.footer-section p {
+	line-height: 50px;
+	padding: 30px 0;
+	cursor: pointer;
+	color: black;
+	background-color: #d2d6e4;
+	margin-bottom: 0;
+}
