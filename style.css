@@ -11,6 +11,9 @@ img{
 	font-size: 18px;
 	padding-left: 90px;
 }
+html,body{
+	overflow-x: hidden;
+}
 .slider {
 	background: url(https://i.ibb.co/fQFh6fT/mbr-10.jpg);
 	background-repeat: no-repeat;
@@ -94,29 +97,32 @@ img{
 }
 
 /* About -Section */
-.about-tex h1 {
-	font-size: 3rem;
+.happybrithday h3 {
+	font-size: 48px;
+	margin-bottom: 20px;
 }
-.about-tex p {
-	font-size: 27px;
+.happybrithday h4 {
 	color: #767676;
+	font-weight: 300;
+	line-height: 1.5;
 }
-.sanjid-vi {
-	height: 250px;
+.move-box {
+	display: flex;
 }
-.sanjid-vi img {
-	height: 250px;
+.move-pic img {
+	height: 100%;
+	width: 72%;
 }
-
-.sanjid-vi h5 {
-	font-size: 25px;
-	font-weight: 500;
-	padding: 10px;
+.move-texta h3 {
+	font-size: 23px;
+	margin-top: 30px;
+	margin-bottom: 19px;
+	margin-left: -35px;
 }
-.sanjid-vi p {
+.move-texta p {
 	color: #767676;
-	font-size: 17px;
-	padding: 10px;
+	font-size: 16px;
+	margin-left: -35px;
 }
 
 /* application */
@@ -228,8 +234,6 @@ img{
 	font-size: 25px;
 	color: #767676;
 	font-weight: 400;
-	width: 828px;
-	margin: auto;
 	line-height: 2.5rem;
 }
 .feedback-tex{
@@ -344,10 +348,6 @@ img{
 	box-shadow: 1px 1px 9px 2px #6278df;
 
 }
-.footer-bottom {
-	width: 710px;
-	margin: auto;
-}
 	
 .footer-bottom p {
 	font-size: 23px;
@@ -355,8 +355,8 @@ img{
 	margin-top: 50px;
 }
 .footer-bottom h1 {
-	font-size: 48px;
-	padding-bottom: 20px;
+	font-size: 45px;
+	padding-bottom: 30px;
 }
 .end-btn {
 	display: inline-block;
@@ -408,3 +408,305 @@ img{
 	background-color: #d2d6e4;
 	margin-bottom: 0;
 }
+
+
+
+@media (max-width:1200px) {
+	.health-tex h3 {
+		font-size: 39px;
+		font-weight: 600;
+	}
+	.feedback-tex::before {
+		content: "\f10d";
+		position: absolute;
+		top: 120px;
+		left: 0;
+		font-family: "FontAwesome";
+		font-weight: 900;
+		font-size: 110px;
+		color: #ccc;
+		right: 0;
+		margin: auto;
+	}
+	.move-pic img {
+		height: 100%;
+		width: 69%;
+	}
+	.move-texta h3 {
+		font-size: 20px;
+		margin-top: 25px;
+		margin-bottom: 15px;
+		margin-left: -40px;
+	}
+	.move-texta p {
+		color: #767676;
+		font-size: 15px;
+		margin-left: -40px;
+	}
+}
+@media (max-width:992px) {
+	.footer-bottom h1 {
+		font-size: 44px;
+		padding-bottom: 20px;
+	}
+	.feedback-tex h1 {
+		font-size: 39px;
+		font-weight: 500;
+		padding-bottom: 110px;
+		text-align: center;
+	}
+	.about-tex h1 {
+		font-size: 44px;
+	}
+	.pricing-tex p {
+		font-size: 23px;
+		font-weight: 400;
+	}
+	.application-logo img {
+		margin-bottom: 30px;
+	}
+	.pricing-tex h1 {
+		font-size: 61px;
+		padding: 20px 0;
+	}
+	.pricing-tex p {
+		font-size: 17px;
+		font-weight: 400;
+	}
+	.Starter {
+		background: rgb(255, 255, 255);
+		padding: 15px 25px;
+		box-shadow: 1px 4px 9px 2px #f3eded;
+		border-radius: 5px;
+		margin-bottom: 20px;
+	}
+	.slider-content h1 {
+		font-size: 42px;
+		font-weight: 500;
+		padding-bottom: 10px;
+	}
+	.gmail1 {
+		padding: 10px 13px;
+		border: 1px solid green;
+		width: 280px;
+		margin: auto;
+		margin-bottom: 15px;
+	}
+	.button1 {
+		display: inline-block;
+		font-size: 23px;
+		background: #5ba533;
+		color: white;
+		font-weight: 0;
+		border: 1ox solid transparent;
+		border: none;
+		padding: 7px 23px;
+		position: relative;
+		right: 0;
+		top: 4px;
+		transition: .5s;
+	}
+	.happybrithday h3 {
+		font-size: 45px;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:800px) {
+	.health-tex h3 {
+		font-size: 35px;
+		font-weight: 600;
+	}
+	.health-tex p {
+		font-size: 19px;
+		font-weight: 300;
+	}
+	.feedback-tex h1 {
+		font-size: 28px;
+		font-weight: 500;
+		padding-bottom: 110px;
+		text-align: center;
+	}
+	.feedback-tex p {
+		font-size: 22px;
+		color: #767676;
+		font-weight: 400;
+		line-height: 2rem;
+	}
+	.contact-tex h1 {
+		font-size: 33px;
+	}
+	.contact-tex p {
+		color: #767676;
+		font-size: 20px;
+		margin-top: 20px;
+		font-weight: 100;
+	}
+	.slider-content h1 {
+		font-size: 39px;
+		font-weight: 100;
+		padding-bottom: 10px;
+	}
+	.slider-content p {
+		font-size: 23px;
+		font-weight: 500;
+	}
+	.health-tex {
+		padding-top: 19px;
+	}
+	.health-tex h3 {
+		font-size: 33px;
+		font-weight: 500;
+	}
+	.about-tex h1 {
+		font-size: 35px;
+	}
+	.about-tex p {
+		font-size: 24px;
+		color: #767676;
+	}
+
+
+}
+@media (max-width:768px) {
+	.footer-bottom h1 {
+		font-size: 30px;
+		padding-bottom: 20px;
+	}
+
+	.end-btn {
+		display: inline-block;
+		font-size: 25px;
+		border: 1px solid #5ba533;
+		color: #5ba533;
+		margin-bottom: 40px;
+		margin-right: 15px;
+		transition: .5s;
+		border-radius: 10px;
+	}
+	.end1-btn {
+		display: inline-block;
+		font-size: 25px;
+		background-color: #5ba533;
+		color: #5ba533;
+		margin-bottom: 40px;
+		margin-left: 15px;
+		transition: .5s;
+		color: white;
+		border-radius: 10px;
+	}
+	.slider {
+		background: url(https://i.ibb.co/fQFh6fT/mbr-10.jpg);
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		padding: 130px 0;
+	}
+	.gmail1 {
+		padding: 10px 13px;
+		border: 1px solid green;
+		width: 280px;
+		margin: auto;
+		margin-bottom: 15px;
+		display: block;
+	}
+	.Starter a {
+		display: inline-block;
+		text-decoration: none;
+		font-size: 20px;
+		background: rgb(255, 255, 255);
+		box-shadow: 1px 2px 5px -2px black;
+		padding: 9px 20px;
+		transition: .5s;
+		border-radius: 10px;
+		margin-bottom: 15px;
+		font-weight: 100;
+	}
+	.Starter ul li {
+		font-size: 20px;
+		margin: 10px 0;
+	}
+	.Starter ul li span {
+		color: #6278df;
+		font-size: 25px;
+		margin-left: 21px;
+		width: 37px;
+		font-weight: 500;
+		display: inline-block;
+	}
+	.pricing-tex h1 {
+		font-size: 53px;
+		padding: 15px 0;
+	}
+	.pricing-tex p {
+		font-size: 16px;
+		font-weight: 100;
+	}
+	.move-pic img {
+		height: 100%;
+		width: 80%;
+	}
+	.move-texta h3 {
+		font-size: 23px;
+		margin-top: 25px;
+		margin-bottom: 15px;
+		margin-left: -30px;
+	}
+	.move-texta p {
+		color: #767676;
+		font-size: 17px;
+		margin-left: -30px;
+	}
+	.happybrithday h3 {
+		font-size: 33px;
+		margin-bottom: 15px;
+	}
+	.happybrithday h4 {
+		color: #767676;
+		font-weight: 300;
+		line-height: 1.5;
+		font-size: 20px;
+	}
+
+}
+@media (max-width:576px) {
+	.form-button {
+		font-size: 20px;
+		padding: 10px 23px;
+		transition: .5s;
+		border: 1px solid transparent;
+	}
+	.pricing-tex h1 {
+		font-size: 45px;
+		padding: 15px 0;
+	}
+	.pricing-tex p {
+		font-size: 16px;
+		font-weight: 100;
+	}
+	.feedback-tex::before {
+		content: "\f10d";
+		position: absolute;
+		top: 140px;
+		left: 0;
+		font-family: "FontAwesome";
+		font-weight: 100;
+		font-size: 80px;
+		color: #ccc;
+		right: 0;
+		margin: auto;
+	}
+	}
+	@media (max-width:390px) {
+		.Starter ul li {
+			font-size: 18px;
+			margin: 10px 0;
+		}
+		.Starter ul li span {
+			color: #6278df;
+			font-size: 22px;
+			margin-left: 21px;
+			width: 33px;
+			font-weight: 500;
+			display: inline-block;
+		}
+	}
